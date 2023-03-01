@@ -2079,6 +2079,12 @@ footer .right-area{
             width: 900px;
         }
 
+        .sec-2 .polaroid-r img,
+        .sec-2 .polaroid-l img{
+            filter: none;
+            pointer-events: none;
+        }
+
 
 
         .mobile-sec-3 .m-model {
@@ -2176,12 +2182,6 @@ footer .right-area{
             height: 350px;
         }
 
-
-        .sec-2 .polaroid-r img,
-        .sec-2 .polaroid-l img{
-            filter: none;
-            pointer-events: none;
-        }
 
         .sec-2 .name {
             font-size : 1.5rem
