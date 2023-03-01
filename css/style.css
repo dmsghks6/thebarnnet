@@ -2081,7 +2081,7 @@ footer .right-area{
 
         .sec-2 .polaroid-r img,
         .sec-2 .polaroid-l img{
-            filter: none;
+            filter:grayscale(0);
             pointer-events: none;
         }
 
@@ -2240,8 +2240,10 @@ footer .right-area{
             font-size: 0.875rem;
         }
 
-        .sec-5 .btn:hover {
+        .sec-5 .btn{
             pointer-events: none;
+            height: 45px;
+            line-height: 45px;
         }
 
 
