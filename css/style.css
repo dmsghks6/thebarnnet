@@ -2114,7 +2114,7 @@ footer .right-area{
         }
     }
 
-    @media(max-width:376px){
+    @media(max-width:400px){
        
 
         .banner {
@@ -2220,11 +2220,8 @@ footer .right-area{
             height: 350px;
         }
 
-        .sec-3 .item:hover{
-            pointer-events: none;
-        }
-
-        .sec-4 .item:hover{
+        .mobile-sec-3 .m-item-img img,
+        .mobile-sec-4 .m-item-imt img{
             pointer-events: none;
         }
 
@@ -2241,9 +2238,9 @@ footer .right-area{
         }
 
         .sec-5 .btn{
-            pointer-events: none;
-            height: 45px;
             line-height: 45px;
+            height: 45px;
+            pointer-events: none;
         }
 
 
