@@ -2214,10 +2214,10 @@ footer .right-area{
             height: 350px;
         }
 
-        .mobile-sec-3 .m-item-img,
+        /* .mobile-sec-3 .m-item-img,
         .mobile-sec-4 .m-item-imt{
             pointer-events: none;
-        }
+        } */
 
         .sec-5 .none-title {
             font-size: 2rem;
