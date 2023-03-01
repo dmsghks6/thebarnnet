@@ -113,6 +113,7 @@ $(document).ready(function(){
 
    
 
+    
 
     // 추가
     $(window).scroll(function(){
@@ -166,13 +167,6 @@ $(document).ready(function(){
             },
         );
     });
-
-
-
-
-    // $('.menu-area .menu').mouseleave(function(){
-    //     $(this).children('.sub-menu').stop().slideUp();
-    // });
 
 
 

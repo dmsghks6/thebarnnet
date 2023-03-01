@@ -2145,11 +2145,6 @@ footer .right-area{
             margin: 0px 0 -2px 4px;
         }
 
-        .banner-empty .menu-area.on {
-            top: 75px;
-            right: 10px;
-        }
-
         .banner-empty .menu-area li {
             padding-right: 8px;
             font-size: 1rem
