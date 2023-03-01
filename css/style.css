@@ -2108,7 +2108,7 @@ footer .right-area{
         }
     }
 
-    @media(max-width:375px){
+    @media(max-width:376px){
        
 
         .banner {
@@ -2176,6 +2176,13 @@ footer .right-area{
             height: 350px;
         }
 
+
+        .sec-2 .polaroid-r img,
+        .sec-2 .polaroid-l img{
+            filter: none;
+            pointer-events: none;
+        }
+
         .sec-2 .name {
             font-size : 1.5rem
         }
@@ -2233,6 +2240,9 @@ footer .right-area{
             font-size: 0.875rem;
         }
 
+        .sec-5 .btn:hover {
+            pointer-events: none;
+        }
 
 
         footer .left-area ul {
