@@ -177,6 +177,8 @@ $(document).ready(function(){
 
 
 
+    // 이미지 마그네틱 
+
 
     $('.sec-3 .left-area').mouseleave(function(e){ 
          TweenMax.to(this, 0.3, {height: 1080,  width:605}); 
@@ -191,7 +193,9 @@ $(document).ready(function(){
     $('.sec-3 .left-area').mousemove(function(e){     
         callParallax(e);
     });
-    
+   
+
+
     function callParallax(e){  
         parallaxIt(e, '.model1', 200); 
     }
