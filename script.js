@@ -1,6 +1,9 @@
 $(document).ready(function(){
 
 
+
+
+    // 스크롤 탑에 따른 스타일링 변화 
     $(window).scroll(function(){
         const sct = $(window).scrollTop();
 
@@ -13,36 +16,100 @@ $(document).ready(function(){
             $('.banner-empty .header-area').removeClass('on');   
 
         }
-
-
-    });
-
-    $('.menu-zone h3').click(function(){
-        $('.menu-area').toggleClass('on');
     });
 
 
 
-    
-    $('.menu-area .menu').click(function(){
-        console.log('dd')
-        $(this).children().stop().slideDown();
-    });
+    media();
+
+    function media(){
+        let windowWidth = $(window).width();
+
+        if(windowWidth >= 600){
+            $('.menu-zone h3').click(function(){
+                $('.menu-area').toggleClass('on');
+            });
+        
+            // 서브메뉴 마우스호버시 
+            $('.menu-area .menu').click(function(){
+                console.log('dd')
+                $(this).children().stop().slideDown();
+            });
+        
+        
+            $('.menu-area .menu').mouseenter(function(){
+                // $('.sub-menu').stop().slideDown();
+                // 수정
+                $(this).siblings('.sub-menu').stop().slideDown();
+                $(this).parent('.menu-area li').siblings().children('.sub-menu').stop().slideUp();
+        
+            });
+        
+            $('.menu-area > li').mouseleave(function(){
+                $('.sub-menu').stop().slideUp();
+            });
+        
+        
+        
+            
+        }else if(windowWidth < 600){
+             // 햄버거버튼 
+            $('.hamburger').click(function(){
+                $(this).toggleClass('on');
+                $('.menu-area').toggleClass('on');
+                $('.hamburger span:nth-child(1)').toggleClass('on');
+                $('.hamburger span:nth-child(2)').toggleClass('on');
+                $('.hamburger span:nth-child(3)').toggleClass('on');
+            });
+
+            $('.hamburger').click(function(){
+                console.log('ee')
+                $('.menu-zone').toggleClass('on');
+            });
+        }
+    }
 
 
-    $('.menu-area .menu').mouseenter(function(){
-        // $('.sub-menu').stop().slideDown();
-        // 수정
-        $(this).siblings('.sub-menu').stop().slideDown();
-        $(this).parent('.menu-area li').siblings().children('.sub-menu').stop().slideUp();
 
-    });
+    // 메뉴버튼 click 하면 서브메뉴
+    // $('.menu-zone h3').click(function(){
+    //     $('.menu-area').toggleClass('on');
+    // });
 
-    $('.menu-area > li').mouseleave(function(){
-        $('.sub-menu').stop().slideUp();
-        // 수정
+    // // 서브메뉴 마우스호버시 
+    // $('.menu-area .menu').click(function(){
+    //     console.log('dd')
+    //     $(this).children().stop().slideDown();
+    // });
 
-    });
+
+    // $('.menu-area .menu').mouseenter(function(){
+    //     // $('.sub-menu').stop().slideDown();
+    //     // 수정
+    //     $(this).siblings('.sub-menu').stop().slideDown();
+    //     $(this).parent('.menu-area li').siblings().children('.sub-menu').stop().slideUp();
+
+    // });
+
+    // $('.menu-area > li').mouseleave(function(){
+    //     $('.sub-menu').stop().slideUp();
+    // });
+
+
+
+    // // 햄버거버튼 
+    // $('.hamburger').click(function(){
+    //     $(this).toggleClass('on');
+    //     $('.menu-area').toggleClass('on');
+    //     $('.hamburger span:nth-child(1)').toggleClass('on');
+    //     $('.hamburger span:nth-child(2)').toggleClass('on');
+    //     $('.hamburger span:nth-child(3)').toggleClass('on');
+    //   });
+
+    // $('.hamburger').click(function(){
+    //     console.log('ee')
+    //     $('.menu-zone').toggleClass('on');
+    // });
 
    
 
@@ -103,40 +170,12 @@ $(document).ready(function(){
 
 
 
-    $('.menu-area .menu').mouseleave(function(){
-        $(this).children('.sub-menu').stop().slideUp();
-    });
-
-
-
-    // $('.sec-3 .left-area').mouseleave(function(e){ 
-    //      TweenMax.to(this, 0.3, {height: 150, width: 150}); 
-    //       TweenMax.to('.model1', 0.3,{scale:1, x: 0, y: 0});
+    // $('.menu-area .menu').mouseleave(function(){
+    //     $(this).children('.sub-menu').stop().slideUp();
     // });
 
-    // $('.sec-3 .left-area').mouseenter(function(e){ 
-    //      TweenMax.to(this, 0.3, {height: 200, width: 200});  
-    //      TweenMax.to('.model1', 0.3,{scale:1.3});
-    //     });
-        
-    // $('.sec-3 .left-area').mousemove(function(e){     
-    //     callParallax(e);
-    // });
-    
-    // function callParallax(e){  
-    //     parallaxIt(e, '.model1', 80); 
-    // }
-     
-    // function parallaxIt(e, target, movement){  
-    //     var $this = $('.sec-3 .left-area');  
-    //     var relX = e.pageX - $this.offset().left;  
-    //     var relY = e.pageY - $this.offset().top;    
 
-    //     TweenMax.to(target, 0.3, {   
-    //         x: (relX - $this.width()/2) / $this.width() * movement,    
-    //         y: (relY - $this.height()/2) / $this.height() * movement,    ease: Power2.easeOut  
-    //     });
-    // }
+
 
 
     $('.sec-3 .left-area').mouseleave(function(e){ 
