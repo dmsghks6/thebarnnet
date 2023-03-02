@@ -1237,7 +1237,7 @@ footer .right-area{
         font-size: 0.75rem;
     }
 
-
+ }
     @media(max-width:1450px){
 
         /* 섹션 3 */
@@ -2210,14 +2210,14 @@ footer .right-area{
         }
 
         .mobile-sec-4 .m-model {
-            width: 200px;
-            height: 350px;
+            width: 167px;
+            height: 341px;
         }
 
-        /* .mobile-sec-3 .m-item-img,
-        .mobile-sec-4 .m-item-imt{
-            pointer-events: none;
-        } */
+        .mobile-sec-3 .m-item-img img:hover,
+        .mobile-sec-4 .m-item-img img:hover{
+           animation: none;
+        }
 
         .sec-5 .none-title {
             font-size: 2rem;
@@ -2249,4 +2249,3 @@ footer .right-area{
     }
 
 
-}
