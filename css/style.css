@@ -1633,6 +1633,7 @@ footer .right-area{
         }
 
         .sec-5 .btn {
+            position: static;
             height: 70px;
             line-height: 70px;
             font-size: 1.25rem;
