@@ -431,55 +431,55 @@ video{
 /* 내려가는 슬라이드  */
 
 .sec-1 .down-slider .content.con-1{
-    background: url(../img/sec-1/sec-2-1.jpg) no-repeat center;
+    background: url(../img/sec-1/sec-2-1.jpg) no-repeat center top;
     background-size: cover;
     transition: 0.3s;
 }
 
 .sec-1 .down-slider .content.con-2{
-    background: url(../img/sec-1/sec-2-2.jpg) no-repeat center;
+    background: url(../img/sec-1/sec-2-2.jpg) no-repeat center top;
     background-size: cover;
     transition: 0.3s;
 }
 
 .sec-1 .down-slider .content.con-3{
-    background: url(../img/sec-1/sec-2-3.jpg) no-repeat center;
+    background: url(../img/sec-1/sec-2-3.jpg) no-repeat center top;
     background-size: cover;
     transition: 0.3s;
 }
 
 .sec-1 .down-slider .content.con-4{
-    background: url(../img/sec-1/sec-2-4.jpg) no-repeat center;
+    background: url(../img/sec-1/sec-2-4.jpg) no-repeat center top;
     background-size: cover;
     transition: 0.3s;
 }
 
 .sec-1 .down-slider .content.con-5{
-    background: url(../img/sec-1/sec-2-5.jpg) no-repeat center;
+    background: url(../img/sec-1/sec-2-5.jpg) no-repeat center top;
     background-size: cover;
     transition: 0.3s;
 }
 
 .sec-1 .down-slider .content.con-6{
-    background: url(../img/sec-1/sec-2-6.jpg) no-repeat center;
+    background: url(../img/sec-1/sec-2-6.jpg) no-repeat center top;
     background-size: cover;
     transition: 0.3s;
 }
 
 .sec-1 .down-slider .content.con-7{
-    background: url(../img/sec-1/sec-2-7.jpg) no-repeat center;
+    background: url(../img/sec-1/sec-2-7.jpg) no-repeat center top;
     background-size: cover;
     transition: 0.3s;
 }
 
 .sec-1 .down-slider .content.con-8{
-    background: url(../img/sec-1/sec-2-8.jpg) no-repeat center;
+    background: url(../img/sec-1/sec-2-8.jpg) no-repeat center top;
     background-size: cover;
     transition: 0.3s;
 }
 
 .sec-1 .down-slider .content.con-9{
-    background: url(../img/sec-1/sec-2-9.jpg) no-repeat center;
+    background: url(../img/sec-1/sec-2-9.jpg) no-repeat center top;
     background-size: cover;
     transition: 0.3s;
 }
@@ -551,55 +551,55 @@ video{
 /* 올라가는 슬라이드  */
 
 .sec-1 .up-slider .content.con-1{
-    background: url(../img/sec-1/sec-2-10.jpg) no-repeat center;
+    background: url(../img/sec-1/sec-2-10.jpg) no-repeat center top;
     background-size: cover;
     transition: 0.3s;
 }
 
 .sec-1 .up-slider .content.con-2{
-    background: url(../img/sec-1/sec-2-11.jpg) no-repeat center;
+    background: url(../img/sec-1/sec-2-11.jpg) no-repeat center top;
     background-size: cover;
     transition: 0.3s;
 }
 
 .sec-1 .up-slider .content.con-3{
-    background: url(../img/sec-1/sec-2-12.jpg) no-repeat center;
+    background: url(../img/sec-1/sec-2-12.jpg) no-repeat center top;
     background-size: cover;
     transition: 0.3s;
 }
 
 .sec-1 .up-slider .content.con-4{
-    background: url(../img/sec-1/sec-2-13.jpg) no-repeat center;
+    background: url(../img/sec-1/sec-2-13.jpg) no-repeat center top;
     background-size: cover;
     transition: 0.3s;
 }
 
 .sec-1 .up-slider .content.con-5{
-    background: url(../img/sec-1/sec-2-14.jpg) no-repeat center;
+    background: url(../img/sec-1/sec-2-14.jpg) no-repeat center top;
     background-size: cover;
     transition: 0.3s;
 }
 
 .sec-1 .up-slider .content.con-6{
-    background: url(../img/sec-1/sec-2-15.jpg) no-repeat center;
+    background: url(../img/sec-1/sec-2-15.jpg) no-repeat center top;
     background-size: cover;
     transition: 0.3s;
 }
 
 .sec-1 .up-slider .content.con-7{
-    background: url(../img/sec-1/sec-2-16.jpg) no-repeat center;
+    background: url(../img/sec-1/sec-2-16.jpg) no-repeat center top;
     background-size: cover;
     transition: 0.3s;
 }
 
 .sec-1 .up-slider .content.con-8{
-    background: url(../img/sec-1/sec-2-17.jpg) no-repeat center;
+    background: url(../img/sec-1/sec-2-17.jpg) no-repeat center top;
     background-size: cover;
     transition: 0.3s;
 }
 
 .sec-1 .up-slider .content.con-9{
-    background: url(../img/sec-1/sec-2-18.jpg) no-repeat center;
+    background: url(../img/sec-1/sec-2-18.jpg) no-repeat center top;
     background-size: cover;
     transition: 0.3s;
 }
@@ -1952,6 +1952,7 @@ footer .right-area{
             transition: 0.3s;
         }
 
+    
         .header-area .hamburger{
             display: block;
             z-index: 999;
