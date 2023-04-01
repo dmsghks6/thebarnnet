@@ -2164,6 +2164,11 @@ footer .right-area{
         }
 
 
+        .sec-1 .collection {
+            width: 92vw;
+        }
+        
+
         .sec-2 .title {
             font-size: 2rem;
         }
@@ -2221,6 +2226,11 @@ footer .right-area{
            animation: none;
         }
 
+        .sec-5 .about {
+            width: 92vw;
+        }
+
+
         .sec-5 .none-title {
             font-size: 2rem;
         }
@@ -2239,6 +2249,10 @@ footer .right-area{
             pointer-events: none;
         }
 
+
+        footer .footer-area {
+            width: 92vw;
+        }
 
         footer .left-area ul {
             font-size: 0.5rem;
